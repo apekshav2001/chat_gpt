@@ -6,6 +6,7 @@
     padding: 2rem 5rem;
 
 }
+
 .gpt3__navbar-links{
     flex: 1;
     display: flex;
@@ -83,7 +84,7 @@
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
-    border-shadow:0 0 5 rgba(0, 0, 0, 0.2);
+    box-shadow:0 0 5 rgba(0, 0, 0, 0.2);
 
 }
 .gpt3__navbar-menu_container p{
@@ -100,11 +101,17 @@
     .gpt3__navbar-menu{
         display: flex;
     }
+    #whatGPT3{
+        white-space: nowrap;
+    }
 }
 
 @media screen and (max-width:700px){
     .gpt3__navbar{
         padding:2rem 4rem;
+    }
+    #whatGPT3{
+        white-space: nowrap;
     }
     
 }
