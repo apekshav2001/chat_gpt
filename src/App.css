@@ -34,13 +34,14 @@ a{
 }
 
 .gradient__text{
-    background:var( --gradient__text );
-    background-clip: text;
+    
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
-.section__Padding{
+.section__padding{
     padding: 4rem 6rem;
 }
 
